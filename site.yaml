@@ -4,7 +4,7 @@ metadata:
   name: site
 spec:
   containers:
-  - name: teste-site
+  - name: site
     image: nginx
     ports:
       - containerPort: 80
