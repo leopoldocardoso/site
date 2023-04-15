@@ -6,5 +6,10 @@ spec:
   containers:
   - name: site
     image: nginx
+    resources:
+      limits:
+        memory: "48Mi"
+      requests:
+        memory: "32Mi"
     ports:
       - containerPort: 80
