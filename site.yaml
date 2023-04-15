@@ -6,8 +6,5 @@ spec:
   containers:
   - name: teste-site
     image: nginx
-    resources:
-      limits:
-        memory: "128Mi"
     ports:
       - containerPort: 80
